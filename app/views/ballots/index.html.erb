@@ -1,0 +1,12 @@
+<% @ballot.each do |levels| %>
+    <% levels.each do |key, level| %>
+        <% level.each do |issues| %>
+            <h1><%= issues[:issue].capitalize %></h1>
+            <ul>
+            <% issues[:candidates].each do |candidate| %>
+                <li><%= candidate[:name] %> ( <%= candidate[:party].capitalize %> )</li>
+            <% end %>
+            </ul>            
+        <% end %>
+    <% end %>
+<% end %>

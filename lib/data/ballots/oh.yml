@@ -1,0 +1,12 @@
+national:
+  issue: 'president'
+  candidate:
+    id: 1,
+    party: 'democrat'
+    name: 'Hillary Clinton'
+    details: 'American politician and former First Lady'
+  candidate:
+    id: 2,
+    party: 'republican'
+    name: 'Donald Trump'
+    details: 'American businessman, politician, television personality'
